@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<patient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="hl7_2.xsd">    
+<patient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hl7_2.xsd">    
     <patient pid="01235" gender="female">
         <fname>Suda</fname>
         <age>25</age>
