@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Patient xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir fhir-all-xsd/patient.xsd">
-    <identifier></identifier>
+<Patient xmlns="http://hl7.org/fhir"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://hl7.org/fhir fhir-all-xsd/patient.xsd">
+    <identifier>
+        <use value="usual"></use>
+        <value value="1234567890123"></value>
+    </identifier>
+    <name>
+        <family value="lastname"></family>
+        <given value="name"></given>
+    </name>
+    <telecom>
+        <system value="phone"></system>
+        <value value="089123456789"></value>
+        <use value="mobile"></use>
+    </telecom>
+    <address>
+        <use value="home"></use>
+        <line value="234 moo"></line>
+        <city value="bkk"></city>
+        <postalCode value="40000"></postalCode>
+        <country value="thailand"></country>
+    </address>
 </Patient>
