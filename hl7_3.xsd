@@ -23,7 +23,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element name="phone" type="orderIdType"></xs:element>
+                <xs:element name="phone" type="phoneType"></xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>    
@@ -41,9 +41,17 @@
             <xs:pattern value="[0-9]{13}"/>
         </xs:restriction>
     </xs:simpleType>
-    <xs:simpleType name="orderIdType">
+
+    <xs:complexType name="phoneType">
+        <xs:sequence>
+            <xs:element name="office" type="phoneNoType"></xs:element>
+            <xs:element name="mobile" type="phoneNoType"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="phoneNoType">
         <xs:restriction base="xs:string">
-            <xs:pattern value="0[0-9]{2}-[0-9]{3}-[0-9]{4}"/>
+            <xs:pattern value="0[0-9]{2}-[0-9]{4}-[0-9]{4}"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
