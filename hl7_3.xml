@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hl7_3.xsd">    
+    <name>
+        <preName>Mr.</preName>
+        <firstName>TestName</firstName>
+        <middleName>noname</middleName>
+        <lastName>TestLast</lastName>
+    </name>
+    <idCard>1234567890123</idCard>
+    <dob>1900-01-01</dob>
+    <age>120</age>
+    <gender>M</gender>
+    <phone>023-123-1234</phone>
+</person>

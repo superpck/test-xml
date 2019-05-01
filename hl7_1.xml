@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="hl7_1.xsd">    
+    <firstName>somchai</firstName>
+    <lastName>thai</lastName>
+    <fullName>somchai thai</fullName>
+    <age>20</age>
+    <phone>02-1234-4567</phone>
+    <phone>02-1234-4568</phone>
+</person>
